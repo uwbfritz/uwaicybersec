@@ -1,8 +1,9 @@
 version: '3.8'
 services:
   app:
-    build: .
-    container_name: ai-cybersecurity
+    # build: .
+    image: uwbfritz/aicybersec:latest
+    container_name: aicybersec
     ports:
       - "8080"
     networks:
